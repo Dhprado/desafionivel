@@ -1,11 +1,8 @@
-// Definindo as variáveis
-let nome = "Rei Arthur "; // Nome do herói
-let xp = 8500;       // Quantidade de experiência do herói
+let nome = "Rei Arthur "; 
+let xp = 8500;       
 
-// Variável para armazenar o nível do herói
 let nivel;
 
-// Estrutura de decisão para classificar o herói com base no XP
 if (xp < 1000) {
     nivel = "Ferro";
 } else if (xp >= 1001 && xp <= 2000) {
@@ -23,6 +20,4 @@ if (xp < 1000) {
 } else {
     nivel = "Radiante";
 }
-
-// Exibindo a mensagem final
 console.log("O Herói de nome " + nome +  " está no nível de " + nivel)
